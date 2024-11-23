@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Merry Christmas</title>
+    <style>
+        /* General Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Full-page container */
+        body, html {
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: 'Comic Sans MS', 'Arial', sans-serif;
+            background: linear-gradient(to bottom, #ff7b7b, #ffefef);
+            color: white;
+            overflow: hidden;
+        }
+
+        /* Message styling */
+        .message {
+            font-size: 2.5rem;
+            text-align: center;
+            padding: 2rem 4rem;
+            background: rgba(0, 100, 0, 0.8); /* Green background */
+            border: 5px solid #ffefef; /* White border */
+            border-radius: 20px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+            animation: fadeOut 5s ease-in-out forwards;
+        }
+
+        /* Responsive font size for mobile */
+        @media (max-width: 768px) {
+            .message {
+                font-size: 2rem;
+            }
+        }
+
+        /* Fade-out animation */
+        @keyframes fadeOut {
+            0% {
+                opacity: 1;
+            }
+            90% {
+                opacity: 0.3;
+            }
+            100% {
+                opacity: 0;
+                transform: scale(0.95);
+            }
+        }
+
+        /* Falling snowflakes */
+        .snowflake {
+            position: absolute;
+            top: -10%;
+            width: 1.5em;
+            height: 1.5em;
+            font-size: 1.2rem;
+            color: white;
+            opacity: 0.8;
+            animation: fall 8s linear infinite, side-to-side 3s ease-in-out infinite;
+        }
+
+        /* Snowfall animation */
+        @keyframes fall {
+            0% {
+                top: -10%;
+            }
+            100% {
+                top: 110%;
+            }
+        }
+
+        @keyframes side-to-side {
+            0%, 100% {
+                transform: translateX(0);
+            }
+            50% {
+                transform: translateX(20px);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="message">
+        🎄 Merry Christmas and Happy Holidays! 🎅
+    </div>
+
+    <!-- Snowflakes -->
+    <div class="snowflake" style="left: 10%;">❄</div>
+    <div class="snowflake" style="left: 30%;">❄</div>
+    <div class="snowflake" style="left: 50%;">❄</div>
+    <div class="snowflake" style="left: 70%;">❄</div>
+    <div class="snowflake" style="left: 90%;">❄</div>
+
+    <script>
+        // Optional: Automatically remove the message after fading out
+        setTimeout(() => {
+            const message = document.querySelector('.message');
+            if (message) {
+                message.style.display = 'none';
+            }
+        }, 5000); // Matches the animation duration
+    </script>
+</body>
+</html>
