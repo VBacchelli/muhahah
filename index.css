@@ -25,7 +25,8 @@ body {
 /* christmas tree*/
 
 .tree-container {
-  position: absolute;
+  position: fixed;
+  top:8%;
   width: 300px;
   height: 475px;
   margin: auto;
@@ -381,7 +382,7 @@ body {
   white-space: nowrap;
   overflow: hidden;
   position: absolute;
-  top:10%;
+  top:5%;
   z-index: 1;
   margin: -15px 0 0 0;
   padding: 0;
@@ -565,6 +566,8 @@ body {
 }
 
 .flipdown {
+  position: absolute;
+  bottom: 15%;
   margin: 0 auto;
 }
 
@@ -600,7 +603,7 @@ body {
   position: absolute;
   left: 50%;
   transform: translate(-50%, -0%); /* Centering the element */
-  bottom: 20px;
+  bottom: 10%;
   background-color: #ffd54c;
   color: white;
   border: none;
