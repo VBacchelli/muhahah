@@ -634,3 +634,7 @@ body {
   bottom: 20%;
   size: 1vw;
 }
+
+.appear-button{
+  display:none;
+}

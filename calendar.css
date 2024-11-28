@@ -1,9 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Mountains+of+Christmas:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap");
-@import url("https://csschristmascalendar.com/assets/freeserif/font.css");
+@import url("assets/freeserif/font.css");
 
 body {
-  background: url(https://i.imgur.com/FnJbmo1.jpg) no-repeat top center #8ac1d6;
+  background: url(assets/calendar-bg.jpg) no-repeat top center #8ac1d6;
   background-size: cover;
   font-family: "Mountains of Christmas", cursive;
   display: flex;
