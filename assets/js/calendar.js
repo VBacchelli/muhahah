@@ -6,14 +6,8 @@ document.addEventListener("DOMContentLoaded", () => {
     today.setHours(0,0,0,0);
     firstDay.setHours(0,0,0,0);
 
-    let difTime = firstDay.getTime() - today.getTime();
-
-    let difDays = difTime  / (1000 * 3600 * 24); // different days between the dates
-
     // represent doors
     let doors = document.querySelectorAll('.day');
-
-    let allDoors = [...doors];
 
     /*for (let i = 0; i < difDays; i++) {
         const input = allDoors[i].querySelector("input[type='checkbox']");
@@ -25,12 +19,11 @@ document.addEventListener("DOMContentLoaded", () => {
         // Enable doors from Dec 1 to today
         if (today>=doorDate) {
             input.disabled = false;
+            door.classList.remove("disabled");
         } else {
             input.disabled = true;
             door.classList.add("disabled");
         }
     });
-
-    console.log(difDays);
 
 });

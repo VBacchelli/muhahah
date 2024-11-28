@@ -581,7 +581,7 @@ body {
   animation: fadeOut 3s ease-in-out forwards;
 }
  /* Responsive font size for mobile */
- @media (max-width: 768px) {
+@media (max-width: 768px) {
   .message {
       font-size: 1.8rem;
   }
