@@ -38,7 +38,7 @@ body {
   position: absolute;
   width: 100%;
   height: 100%;
-  top: 10%;
+  top: 15%;
 }
 
 .star {
@@ -604,7 +604,7 @@ body {
   position: absolute;
   left: 50%;
   transform: translate(-50%, -0%); /* Centering the element */
-  bottom: 10%;
+  bottom: 20%;
   background-color: #ffd54c;
   color: white;
   border: none;
@@ -627,4 +627,9 @@ body {
 /* Arrow Icon */
 .arrow-icon {
   font-size: 35px;
+}
+
+.countdown{
+  position: absolute;
+  bottom: 20%;
 }
