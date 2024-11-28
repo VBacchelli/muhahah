@@ -577,7 +577,7 @@ body {
   position: absolute;
   z-index: 10;
   color: white;
-  font-size: 2em;
+  font-size: 2vw;
   animation: fadeOut 3s ease-in-out forwards;
 }
  /* Responsive font size for mobile */
@@ -632,4 +632,5 @@ body {
 .countdown{
   position: absolute;
   bottom: 20%;
+  size: 1vw;
 }
