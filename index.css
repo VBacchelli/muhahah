@@ -277,7 +277,7 @@ body {
   width: 60px;
   height: 50px;
   background-color: #ffc857;
-  top: 395px;
+  top: 410px;
   left: 30px;
   box-shadow: inset -8px 0 0 rgba(0, 0, 0, 0.07);
 }
@@ -308,7 +308,7 @@ body {
   border: 3px solid #db3a34;
   border-radius: 50%;
   transform: skew(15deg, 15deg);
-  top: 380px;
+  top: 395px;
   left: 35px;
 }
 
@@ -329,7 +329,7 @@ body {
   width: 50px;
   height: 40px;
   background-color: #08bdbd;
-  top: 410px;
+  top: 425px;
   left: 150px;
   box-shadow: inset -8px 0 0 rgba(0, 0, 0, 0.07);
 }
@@ -360,7 +360,7 @@ body {
   border: 3px solid #abff4f;
   border-radius: 50%;
   transform: skew(15deg, 15deg);
-  top: 400px;
+  top: 415px;
   left: 155px;
 }
 
