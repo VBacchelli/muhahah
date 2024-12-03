@@ -1,7 +1,7 @@
 
 document.addEventListener("DOMContentLoaded", () => {
     var today = new Date();
-    var firstDay =  new Date('2024/12/01');
+    var firstDay =  new Date('2024/1/01');
 
     today.setHours(0,0,0,0);
     firstDay.setHours(0,0,0,0);
